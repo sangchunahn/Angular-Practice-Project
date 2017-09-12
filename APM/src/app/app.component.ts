@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'pm-root',
@@ -16,10 +16,9 @@ import { Component } from '@angular/core'
         <div class='container'>
             <router-outlet></router-outlet>
         </div>
-    </div>
-   `
+     </div>
+    `
 })
-
 export class AppComponent {
-  pageTitle: string = 'My Product Management'
+  pageTitle: string = 'Acme Product Management';
 }
